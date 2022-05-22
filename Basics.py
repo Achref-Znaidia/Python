@@ -1,3 +1,4 @@
+import io
 import json
 
 
@@ -32,9 +33,12 @@ class Basics(object):
             json.dump(data, file)
         file.close()
 
+    def readjsonnodes():
+        file = io.open("config.json", "r")
+        data = json.load(file)
+        print(len(data.get("event")))
+        file.close()
+
 
 Basics.printjsonnodes()
-Basics.removejsonnodes()
-Basics.printjsonnodes()
-Basics.revertjsonnodes()
-Basics.printjsonnodes()
+Basics.readjsonnodes()
