@@ -2,12 +2,12 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-Google
-    Open Browser    https//:www.google.com      chrome
+
 
 *** Test Cases ***
-
-
+Google
+    Open Browser    https://www.google.com      chrome
+    sleep   2
 *** Keywords ***
 
 

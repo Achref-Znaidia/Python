@@ -1,17 +1,29 @@
 # Python projects
 
-## Basics
-
 ---
 
+## Contact
+
+Mail: [achref.znaidiagmail.com](links"link to project")
+
+2. Linkedin: [Link](links"link to project")
+
+
+## Preparation
+
+###Tools
+
+* Development
+  * Django
+* Test
+  * Selenium
+  * Robot framework
+
+## Basics
+
+
+
 > Always start with basics
-
-[Link](links"link to project")
-
-* sort
-  * type
-
-2. item
 
 ![image](link)
 
@@ -24,5 +36,8 @@ print()
 | first  | code2 |
 | second | code3 |
 
-* [ ] task
-* [ ] task2
+
+## Tasks
+
+* [ ] Development
+* [ ] Test
