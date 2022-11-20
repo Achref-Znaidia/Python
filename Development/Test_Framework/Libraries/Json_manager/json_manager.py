@@ -18,6 +18,15 @@ class json_manager():
         # print content
         print("the content of json file :\n", printed_value)
 
+    def modify_node_json_file(self):
+        pass
+
+    def get_node_from_json_file(self):
+        pass
+
+    def remove_node_json_file(self):
+        pass
+
 
 json_file_content = """{
   "name": "John",
